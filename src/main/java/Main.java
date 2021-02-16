@@ -1,7 +1,11 @@
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class Main {
 	public static void main(String[] args) {
+
+
 		Bird b1 = new Bird();
 		Bird b2 = new Bird();
 		LadyBird l1 = new LadyBird();
@@ -19,6 +23,11 @@ public class Main {
 		for (LadyBird ladyBird : Arrays.asList(l1, l2)) {
 			ladyBird.feed();
 		}
+		List<Flying> collect = new ArrayList<>();
+		for (int i = 0; i < 0; i++) {
+			collect.add(new Bird());
+			collect.add(new LadyBird());
 
+		}
 	}
 }

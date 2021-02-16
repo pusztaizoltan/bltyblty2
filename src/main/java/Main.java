@@ -24,10 +24,13 @@ public class Main {
 			ladyBird.feed();
 		}
 		List<Flying> collect = new ArrayList<>();
-		for (int i = 0; i < 0; i++) {
+		for (int i = 0; i < 3; i++) {
 			collect.add(new Bird());
 			collect.add(new LadyBird());
 
 		}
+		System.out.println("---------------------------------------------");
+		UncleBen benben = new UncleBen();
+		benben.feedBirds(b1);
 	}
 }

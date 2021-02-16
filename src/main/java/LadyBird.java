@@ -6,10 +6,12 @@ public class LadyBird implements Flying{
 		System.out.println(string);
 	}
 
+    @Override
 	public void fly() {
 		speak("Buzz, Buzz");
 
 	}
+	@Override
 	public void feed() {
 		speak("I love aphid");
 	}

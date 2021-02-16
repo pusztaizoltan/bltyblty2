@@ -1,8 +1,11 @@
+import java.util.List;
+
 public class UncleBen {
 
 
-	public void feedBirds(Bird bird) {
-		bird.feed();
+	public void feedBirds(List<Flying> animal) {
+		animal.forEach(one -> one.feed());
+
 	}
 }
 
